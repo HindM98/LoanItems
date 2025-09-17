@@ -20,7 +20,7 @@ public class LoanItem {
 
             //2. Spørg hvor mange ting der skal registreres
             System.out.print("Hvor mange lån vil du registrere?");
-                   int antal = input.nextInt();
+            int antal = input.nextInt();
             input.nextLine(); // "Spiser" linjeskift
 
             //3. Validate input (simpelt check)
